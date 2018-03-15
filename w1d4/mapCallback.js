@@ -1,32 +1,20 @@
 var words = ["ground", "control", "to", "major", "tom"];
 
-function map(words,found){
+var map = function(array,found){
   var arr = [];
   for(var i = 0; i < words.length; i++){
-  arr.push(words[i].length);}
-  found(arr);}
+  arr.push(found(words[i]));
+  }  console.log(arr);
+}
 
-function map2(words, found){
-    var arr = [];
-    for(var i = 0; i < words.length; i++){
-    arr.push(words[i].toUpperCase())}
-    found(arr);}
+  map(words, function(word) {
+    return word.length;
+  });
 
-function map3(words, found){
-      var arr = [];
-      for(var i = 0; i < words.length; i++){
-      arr.push(words[i].split('').reverse().join(''))}
-      found(arr);}
+  map(words, function(word) {
+    return word.toUpperCase();
+  });
 
-
-map(words, function(word) {
-  console.log(word);
-});
-
-map2(words, function(word) {
-  console.log(word);
-});
-
-map3(words, function(word) {
-  console.log(word);
-});
+  map(words, function(word) {
+    return word.split('').reverse().join('');
+  });
