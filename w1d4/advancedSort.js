@@ -1,3 +1,5 @@
+// Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+
 var students = [
   { id: 1, name: "bruce",    age: 40 },
   { id: 2, name: "zoidberg", age: 22 },
