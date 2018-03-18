@@ -1,0 +1,2 @@
+A cool input file that checks if the function readfileArgv.js works correctly.
+I guess it does!

@@ -3,6 +3,8 @@ var input = data[2];
 
 var fs = require("fs");
 
+console.log("\n");
+
 fs.readFile(input, function (err, data) {
   if (err) {
     console.log(err);
