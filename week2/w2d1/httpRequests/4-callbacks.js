@@ -9,7 +9,7 @@ function getHTML (options,callback) {
     response.setEncoding('utf8');
 
       var dataString = "Chunk Received. Printing on a new line: " ;
-
+s
     // the callback is invoked when a `data` chunk is received
     response.on('data', function (data) {
       // console.log("Chunk Received. Printing on" + data.concat("\n"));
@@ -31,8 +31,9 @@ function printHTML (html) {
 }
 
 function printHtmlUpper(html) {
-	console.log(html.toUpperCase())
+console.log(html.toUpperCase());
 }
+
 var requestOptions = {
   host: 'sytantris.github.io',
   path: '/http-examples/step4.html'

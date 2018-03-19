@@ -12,5 +12,5 @@ var requestOptions = {
   path: '/http-examples/step5.html'
 };
 
-getHTML();
+getHTML(requestOptions, printHTML);
 
