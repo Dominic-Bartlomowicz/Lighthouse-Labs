@@ -15,6 +15,3 @@ module.exports = {
     return circumference;
   }
 };
-
-
-coolMath.getCircumference();
