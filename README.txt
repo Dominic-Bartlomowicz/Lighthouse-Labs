@@ -2,3 +2,4 @@ A directory of the work completed at Lighthouse Labs during the Software Develop
 
 Week 1: Javascript fundamentals
 Week 2: HTTPS & Server/Client Concepts
+Week 3: DOM & CSS
